@@ -1,0 +1,181 @@
+@keyframes dealCard1 {
+    0% {
+        transform: translate(0, 0) rotateY(180deg);
+    }
+    100% {
+        transform: translate(-800px, 500px) rotateY(0deg);
+        bottom: 0px;
+        left: 0px;
+    }
+}
+
+@keyframes dealCard2 {
+    0% {
+        transform: translate(0, 0) rotateY(180deg);
+    }
+    100% {
+        transform: translate(-780px, 480px) rotateY(0deg);
+        bottom: 2px;
+        left: 2px;
+    }
+}
+
+@keyframes dealCard3 {
+    0% {
+        transform: translate(0, 0) rotateY(180deg);
+    }
+    100% {
+        transform: translate(-760px, 460px) rotateY(0deg);
+        bottom: 4px;
+        left: 4px;
+    }
+}
+
+@keyframes dealCard4 {
+    0% {
+        transform: translate(0, 0) rotateY(180deg);
+    }
+    100% {
+        transform: translate(-740px, 440px) rotateY(0deg);
+        bottom: 6px;
+        left: 6px;
+    }
+}
+
+@keyframes dealCard5 {
+    0% {
+        transform: translate(0, 0) rotateY(180deg);
+    }
+    100% {
+        transform: translate(-720px, 420px) rotateY(0deg);
+        bottom: 8px;
+        left: 8px;
+    }
+}
+
+@keyframes dealCard6 {
+    0% {
+        transform: translate(0, 0) rotateY(180deg);
+    }
+    100% {
+        transform: translate(-700px, 400px) rotateY(0deg);
+        bottom: 10px;
+        left: 10px;
+    }
+}
+
+@keyframes dealCard7 {
+    0% {
+        transform: translate(0, 0) rotateY(180deg);
+    }
+    100% {
+        transform: translate(-680px, 380px) rotateY(0deg);
+        bottom: 12px;
+        left: 12px;
+    }
+}
+
+@keyframes dealCard8 {
+    0% {
+        transform: translate(0, 0) rotateY(180deg);
+    }
+    100% {
+        transform: translate(-660px, 360px) rotateY(0deg);
+        bottom: 14px;
+        left: 14px;
+    }
+}
+
+@keyframes dealCard9 {
+    0% {
+        transform: translate(0, 0) rotateY(180deg);
+    }
+    100% {
+        transform: translate(-640px, 340px) rotateY(0deg);
+        bottom: 16px;
+        left: 16px;
+    }
+}
+
+@keyframes dealCard10 {
+    0% {
+        transform: translate(0, 0) rotateY(180deg);
+    }
+    100% {
+        transform: translate(-620px, 320px) rotateY(0deg);
+        bottom: 18px;
+        left: 18px;
+    }
+}
+
+@keyframes dealCard11 {
+    0% {
+        transform: translate(0, 0) rotateY(180deg);
+    }
+    100% {
+        transform: translate(-600px, 300px) rotateY(0deg);
+        bottom: 20px;
+        left: 20px;
+    }
+}
+
+@keyframes dealCard12 {
+    0% {
+        transform: translate(0, 0) rotateY(180deg);
+    }
+    100% {
+        transform: translate(-580px, 280px) rotateY(0deg);
+        bottom: 22px;
+        left: 22px;
+    }
+}
+
+
+.card-stack-card.deal-card-player-1 .card-inner {
+    animation: dealCard1 1s forwards;
+    
+}
+
+.card-stack-card.deal-card-player-2 .card-inner {
+    animation: dealCard2 1s forwards;
+}
+
+.card-stack-card.deal-card-player-3 .card-inner {
+    animation: dealCard3 1s forwards;
+}
+
+.card-stack-card.deal-card-player-4 .card-inner {
+    animation: dealCard4 1s forwards;
+}
+
+.card-stack-card.deal-card-player-5 .card-inner {
+    animation: dealCard5 1s forwards;
+}
+
+.card-stack-card.deal-card-player-6 .card-inner {
+    animation: dealCard6 1s forwards;
+}
+
+.card-stack-card.deal-card-player-7 .card-inner {
+    animation: dealCard7 1s forwards;
+}
+
+.card-stack-card.deal-card-player-8 .card-inner {
+    animation: dealCard8 1s forwards;
+}
+
+.card-stack-card.deal-card-player-9 .card-inner {
+    animation: dealCard9 1s forwards;
+}
+
+.card-stack-card.deal-card-player-10 .card-inner {
+    animation: dealCard10 1s forwards;
+}
+
+.card-stack-card.deal-card-player-11 .card-inner {
+    animation: dealCard11 1s forwards;
+}
+
+.card-stack-card.deal-card-player-12 .card-inner {
+    animation: dealCard12 1s forwards;
+}

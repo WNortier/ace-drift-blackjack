@@ -1,46 +1,42 @@
-# Getting Started with Create React App
+# Ace Drift Blackjack
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> ## The objective of the game is to get closer to the sum of 21 than the dealer, without exceeding 21.
 
-## Available Scripts
+### 1. Initial Deal:
 
-In the project directory, you can run:
+- Each player is dealt two cards face up.
+- The dealer is dealt two cards, one face up and one face down.
 
-### `npm start`
+### 2. Player's Turn:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Players can choose to "Hit" (draw a card) or "Stand" (keep their current hand).
+- Players can continue to hit until they either stand or exceed 21 (bust).
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### 3. Dealer's Turn:
 
-### `npm test`
+- The dealer reveals their face-down card.
+- The dealer must draw cards until their hand totals 17 or higher.
+- If the dealer exceeds 21, they bust, and all remaining players win.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 4. Winning:
 
-### `npm run build`
+- If a player's hand is closer to 21 than the dealer's without exceeding 21, the player wins.
+- If the dealer's hand is closer to 21, the dealer wins.
+- If both the player and the dealer have the same total, it is a push (tie), and the player's bet is returned.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### **Card Values:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Number cards (2-10) are worth their face value.
+- Face cards (Jack, Queen, King) are worth 10 points.
+- Aces can be worth 1 or 11 points, depending on which value benefits the hand more.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### **Special Rules:**
 
-### `npm run eject`
+- **Blackjack:** If a player is dealt an Ace and a 10-value card (10, Jack, Queen, King) as their initial two cards, they have a "Blackjack" and win 1.5 times their bet, unless the dealer also has a Blackjack, resulting in a push.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- **Insurance:** If the dealer's face-up card is an Ace, players can choose to take "insurance," a side bet that the dealer has a Blackjack. If the dealer has a Blackjack, the insurance bet pays 2:1.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### **Dealer Rules:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- The dealer must draw cards until their hand totals 17 or higher.
+- The dealer must stand on all 17s, including "soft 17" (a hand containing an Ace valued as 11).

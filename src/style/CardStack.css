@@ -1,0 +1,275 @@
+.card-stack {
+    position: fixed;
+    top: 200px; /* Adjust as needed */
+    right: 200px; /* Adjust as needed */
+    width: 125px; /* Adjust based on card width */
+    height: 175px; /* Adjust based on card height */
+    margin: 0; /* Remove auto margin */
+}
+
+.card-stack-card {
+    position: absolute;
+    width: 125px; /* Adjust based on card width */
+    height: 175px; /* Adjust based on card height */
+    perspective: 1000px;
+}
+
+.card-stack-card-0 {
+  bottom: 0px;
+  left: 0px;
+}
+
+.card-stack-card-1 {
+  bottom: 2px;
+  left: 2px;
+}
+
+.card-stack-card-2 {
+  bottom: 4px;
+  left: 4px;
+}
+
+.card-stack-card-3 {
+  bottom: 6px;
+  left: 6px;
+}
+
+.card-stack-card-4 {
+  bottom: 8px;
+  left: 8px;
+}
+
+.card-stack-card-5 {
+  bottom: 10px;
+  left: 10px;
+}
+
+.card-stack-card-6 {
+  bottom: 12px;
+  left: 12px;
+}
+
+.card-stack-card-7 {
+  bottom: 14px;
+  left: 14px;
+}
+
+.card-stack-card-8 {
+  bottom: 16px;
+  left: 16px;
+}
+
+.card-stack-card-9 {
+  bottom: 18px;
+  left: 18px;
+}
+
+.card-stack-card-10 {
+  bottom: 20px;
+  left: 20px;
+}
+
+.card-stack-card-11 {
+  bottom: 22px;
+  left: 22px;
+}
+
+.card-stack-card-12 {
+  bottom: 24px;
+  left: 24px;
+}
+
+.card-stack-card-13 {
+  bottom: 26px;
+  left: 26px;
+}
+
+.card-stack-card-14 {
+  bottom: 28px;
+  left: 28px;
+}
+
+.card-stack-card-15 {
+  bottom: 30px;
+  left: 30px;
+}
+
+.card-stack-card-16 {
+  bottom: 32px;
+  left: 32px;
+}
+
+.card-stack-card-17 {
+  bottom: 34px;
+  left: 34px;
+}
+
+.card-stack-card-18 {
+  bottom: 36px;
+  left: 36px;
+}
+
+.card-stack-card-19 {
+  bottom: 38px;
+  left: 38px;
+}
+
+.card-stack-card-20 {
+  bottom: 40px;
+  left: 40px;
+}
+
+.card-stack-card-21 {
+  bottom: 42px;
+  left: 42px;
+}
+
+.card-stack-card-22 {
+  bottom: 44px;
+  left: 44px;
+}
+
+.card-stack-card-23 {
+  bottom: 46px;
+  left: 46px;
+}
+
+.card-stack-card-24 {
+  bottom: 48px;
+  left: 48px;
+}
+
+.card-stack-card-25 {
+  bottom: 50px;
+  left: 50px;
+}
+
+.card-stack-card-26 {
+  bottom: 52px;
+  left: 52px;
+}
+
+.card-stack-card-27 {
+  bottom: 54px;
+  left: 54px;
+}
+
+.card-stack-card-28 {
+  bottom: 56px;
+  left: 56px;
+}
+
+.card-stack-card-29 {
+  bottom: 58px;
+  left: 58px;
+}
+
+.card-stack-card-30 {
+  bottom: 60px;
+  left: 60px;
+}
+
+.card-stack-card-31 {
+  bottom: 62px;
+  left: 62px;
+}
+
+.card-stack-card-32 {
+  bottom: 64px;
+  left: 64px;
+}
+
+.card-stack-card-33 {
+  bottom: 66px;
+  left: 66px;
+}
+
+.card-stack-card-34 {
+  bottom: 68px;
+  left: 68px;
+}
+
+.card-stack-card-35 {
+  bottom: 70px;
+  left: 70px;
+}
+
+.card-stack-card-36 {
+  bottom: 72px;
+  left: 72px;
+}
+
+.card-stack-card-37 {
+  bottom: 74px;
+  left: 74px;
+}
+
+.card-stack-card-38 {
+  bottom: 76px;
+  left: 76px;
+}
+
+.card-stack-card-39 {
+  bottom: 78px;
+  left: 78px;
+}
+
+.card-stack-card-40 {
+  bottom: 80px;
+  left: 80px;
+}
+
+.card-stack-card-41 {
+  bottom: 82px;
+  left: 82px;
+}
+
+.card-stack-card-42 {
+  bottom: 84px;
+  left: 84px;
+}
+
+.card-stack-card-43 {
+  bottom: 86px;
+  left: 86px;
+}
+
+.card-stack-card-44 {
+  bottom: 88px;
+  left: 88px;
+}
+
+.card-stack-card-45 {
+  bottom: 90px;
+  left: 90px;
+}
+
+.card-stack-card-46 {
+  bottom: 92px;
+  left: 92px;
+}
+
+.card-stack-card-47 {
+  bottom: 94px;
+  left: 94px;
+}
+
+.card-stack-card-48 {
+  bottom: 96px;
+  left: 96px;
+}
+
+.card-stack-card-49 {
+  bottom: 98px;
+  left: 98px;
+}
+
+.card-stack-card-50 {
+  bottom: 100px;
+  left: 100px;
+}
+
+.card-stack-card-51 {
+  bottom: 102px;
+  left: 102px;
+}

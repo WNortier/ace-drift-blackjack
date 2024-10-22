@@ -1,0 +1,179 @@
+@keyframes dealCardDealer1 {
+    0% {
+        transform: translate(0, 0) rotateY(180deg);
+    }
+    100% {
+        transform: translate(-800px, 100px) rotateY(180deg);
+        bottom: 0px;
+        left: 0px;
+    }
+}
+
+@keyframes dealCardDealer2 {
+    0% {
+        transform: translate(0, 0) rotateY(180deg);
+    }
+    100% {
+        transform: translate(-780px, 80px) rotateY(0deg);
+        bottom: 2px;
+        left: 2px;
+    }
+}
+
+@keyframes dealCardDealer3 {
+    0% {
+        transform: translate(0, 0) rotateY(180deg);
+    }
+    100% {
+        transform: translate(-760px, 60px) rotateY(0deg);
+        bottom: 4px;
+        left: 4px;
+    }
+}
+
+@keyframes dealCardDealer4 {
+    0% {
+        transform: translate(0, 0) rotateY(180deg);
+    }
+    100% {
+        transform: translate(-740px, 40px) rotateY(0deg);
+        bottom: 6px;
+        left: 6px;
+    }
+}
+
+@keyframes dealCardDealer5 {
+    0% {
+        transform: translate(0, 0) rotateY(180deg);
+    }
+    100% {
+        transform: translate(-720px, 20px) rotateY(0deg);
+        bottom: 8px;
+        left: 8px;
+    }
+}
+
+@keyframes dealCardDealer6 {
+    0% {
+        transform: translate(0, 0) rotateY(180deg);
+    }
+    100% {
+        transform: translate(-700px, 0px) rotateY(0deg);
+        bottom: 10px;
+        left: 10px;
+    }
+}
+
+@keyframes dealCardDealer7 {
+    0% {
+        transform: translate(0, 0) rotateY(180deg);
+    }
+    100% {
+        transform: translate(-680px, -20px) rotateY(0deg);
+        bottom: 12px;
+        left: 12px;
+    }
+}
+
+@keyframes dealCardDealer8 {
+    0% {
+        transform: translate(0, 0) rotateY(180deg);
+    }
+    100% {
+        transform: translate(-660px, -40px) rotateY(0deg);
+        bottom: 14px;
+        left: 14px;
+    }
+}
+
+@keyframes dealCardDealer9 {
+    0% {
+        transform: translate(0, 0) rotateY(180deg);
+    }
+    100% {
+        transform: translate(-640px, -60px) rotateY(0deg);
+        bottom: 16px;
+        left: 16px;
+    }
+}
+
+@keyframes dealCardDealer10 {
+    0% {
+        transform: translate(0, 0) rotateY(180deg);
+    }
+    100% {
+        transform: translate(-620px, -80px) rotateY(0deg);
+        bottom: 18px;
+        left: 18px;
+    }
+}
+
+@keyframes dealCardDealer11 {
+    0% {
+        transform: translate(0, 0) rotateY(180deg);
+    }
+    100% {
+        transform: translate(-600px, -100px) rotateY(0deg);
+        bottom: 20px;
+        left: 20px;
+    }
+}
+
+@keyframes dealCardDealer12 {
+    0% {
+        transform: translate(0, 0) rotateY(180deg);
+    }
+    100% {
+        transform: translate(-580px, -120px) rotateY(0deg);
+        bottom: 22px;
+        left: 22px;
+    }
+}
+
+.card-stack-card.deal-card-dealer-1.first-dealer-card .card-inner {
+    animation: dealCardDealer1 1s forwards;
+}
+
+.card-stack-card.deal-card-dealer-2 .card-inner {
+    animation: dealCardDealer2 1s forwards;
+}
+
+.card-stack-card.deal-card-dealer-3 .card-inner {
+    animation: dealCardDealer3 1s forwards;
+}
+
+.card-stack-card.deal-card-dealer-4 .card-inner {
+    animation: dealCardDealer4 1s forwards;
+}
+
+.card-stack-card.deal-card-dealer-5 .card-inner {
+    animation: dealCardDealer5 1s forwards;
+}
+
+.card-stack-card.deal-card-dealer-6 .card-inner {
+    animation: dealCardDealer6 1s forwards;
+}
+
+.card-stack-card.deal-card-dealer-7 .card-inner {
+    animation: dealCardDealer7 1s forwards;
+}
+
+.card-stack-card.deal-card-dealer-8 .card-inner {
+    animation: dealCardDealer8 1s forwards;
+}
+
+.card-stack-card.deal-card-dealer-9 .card-inner {
+    animation: dealCardDealer9 1s forwards;
+}
+
+.card-stack-card.deal-card-dealer-10 .card-inner {
+    animation: dealCardDealer10 1s forwards;
+}
+
+.card-stack-card.deal-card-dealer-11 .card-inner {
+    animation: dealCardDealer11 1s forwards;
+}
+
+.card-stack-card.deal-card-dealer-12 .card-inner {
+    animation: dealCardDealer12 1s forwards;
+}

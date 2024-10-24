@@ -54,4 +54,11 @@ export const cards: { name: string, value: number | number[] }[] = [
 ];
 export const cardBack: string = '/card_back.svg';
 
-export const chips = ['chip_1.png', 'chip_5.png', 'chip_25.png', 'chip_50.png', 'chip_100.png', 'chip_500.png']
+export const chips = [
+    { name: 'chip_1.png', value: 1 },
+    { name: 'chip_5.png', value: 5 },
+    { name: 'chip_25.png', value: 25 },
+    { name: 'chip_50.png', value: 50 },
+    { name: 'chip_100.png', value: 100 },
+    { name: 'chip_500.png', value: 500 }
+];

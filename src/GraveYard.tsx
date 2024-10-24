@@ -55,7 +55,7 @@ const GraveYard = () => {
             <div className="chips-container">
                 {chips.map((chip, index) => (
                     <div key={index} className="chip">
-                        <img height="55px" src={`/chips/${chip}`} alt={`chip-${chip}`} onClick={(e) => handleBank(e, chip)} />
+                        <img height="55px" src={`/chips/${chip}`} alt={`chip-${chip}`} onClick={(e) => handleBank(e, chip.name)} />
                     </div>
                 ))}
             </div>

@@ -1,0 +1,48 @@
+.outcomes {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player-busts, .dealer-busts, .player-wins, .dealer-wins, .push {
+    color: red;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    z-index: 1000;
+    display: none;
+    position: absolute;
+}
+
+@keyframes animateOutcome {
+    0% {
+        transform: translateY(0px);
+        opacity: 1;
+        display: block
+    }
+    100% {
+        transform: translateY(-100px);
+        opacity: 0;
+        display: none;
+    }
+}
+
+.player-busts.animate {
+    animation: animateOutcome 4s ease;
+}
+
+.dealer-busts.animate {
+    animation: animateOutcome 4s ease;
+}
+
+.player-wins.animate {
+    animation: animateOutcome 4s ease;
+}
+
+.dealer-wins.animate {
+    animation: animateOutcome 4s ease;
+}

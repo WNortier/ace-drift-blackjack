@@ -1,0 +1,20 @@
+.controls {
+    position: absolute;
+    bottom: -900px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* top: 50%; */
+}
+
+.controls-buttons {
+    display: flex;
+}
+
+.controls-buttons button {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #f0f0f0;
+    cursor: pointer;
+}

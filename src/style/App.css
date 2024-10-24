@@ -12,8 +12,16 @@ body {
   color: white;
 }
 
-.App {
-  text-align: center;
+:root {
+  --deal-card-dealer-x: calc(-35vw - 62.5px); /* 50vw centers the card, 62.5px is half the card width */
+  --deal-card-dealer-y: 100px; /* Adjust this value as needed */
+  --deal-card-player-x: calc(-35vw - 62.5px); /* 50vw centers the card, 62.5px is half the card width */
+  --deal-card-player-y: 500px;
+}
+
+.table {
+  position: relative;
+  height: 100vh;
 }
 
 /* .card-container {
@@ -63,6 +71,20 @@ body {
   position: fixed;
   bottom: 75px; /* Adjust as needed */
   left: 75px; /* Adjust as needed */
+}
+
+.player-game-state {
+
+  background: rgba(226, 226, 213, 0.6);
+  padding: 20px;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 75px; /* Adjust as needed */
+  left: 700px; /* Adjust as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  justify-content: space-between;
 }
 
 .chips h4 {

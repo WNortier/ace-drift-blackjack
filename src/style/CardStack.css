@@ -1,7 +1,7 @@
 .card-stack {
     position: fixed;
-    top: 200px; /* Adjust as needed */
-    right: 200px; /* Adjust as needed */
+    top: 20%; /* Adjust as needed */
+    right: 10%; /* Adjust as needed */
     width: 125px; /* Adjust based on card width */
     height: 175px; /* Adjust based on card height */
     margin: 0; /* Remove auto margin */
